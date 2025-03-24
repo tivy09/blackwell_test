@@ -1,0 +1,123 @@
+@import "../../../styles/_variable.scss";
+
+.analysisSection {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: $background-color;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+}
+
+.textContent {
+  max-width: 800px;
+}
+
+.title {
+  font-family: $mainTitle;
+  font-size: 2.5rem;
+  color: $light-blue;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 18px;
+  font-family: $subTitle;
+  color: $gold;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mainImageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.mainImage {
+  width: 200px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.floatingBox {
+  position: absolute;
+  border-radius: 12px;
+  z-index: 3;
+  width: 180px; 
+  height: auto;
+}
+
+.box1 {
+  top: -4%;
+  left: -40%;
+}
+
+.box2 {
+  top: 17%;
+  right: -40%;
+}
+
+.box3 {
+  top: 33%;
+  left: -40%;
+}
+
+.box4 {
+    top: 44%;
+    right: -40%;
+}
+
+.box5 {
+    height: 125px;
+    bottom: -4%;
+    right: 50%;
+}
+
+@media (max-width: 768px) {
+  .floatingBox {
+    width: 140px; 
+  }
+
+  .box1 {
+    top: -10%;
+    left: -50%;
+    width: 180px;
+  }
+
+  .box2 {
+    top: 18%;
+    right: -40%;
+    width: 180px;
+  }
+
+  .box3 {
+    bottom: 0;
+    left: -50%;
+    width: 200px;
+  }
+
+  .box4 {
+    bottom: 0;
+    right: -54%;
+    width: 200px;
+  }
+
+  .box5 {
+    bottom: -15%;
+    width: 200px;
+  }
+}

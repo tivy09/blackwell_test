@@ -1,0 +1,158 @@
+@import "../../../styles/_variable.scss";
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 60px 20px;
+  background: $background-color;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.content {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.heroTitle {
+  font-family: $mainTitle;
+  font-size: 60px;
+  color: $light-blue;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: left;
+}
+
+.heroTitleItalic {
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+.subText {
+  font-size: 30px;
+  font-family: $subTitle;
+  color: $light-blue;
+  font-weight: bold;
+}
+
+.highlight {
+  font-size: 30px;
+  font-family: $subTitle;
+  color: $gold;
+  font-style: italic;
+}
+
+.heroDescription {
+  font-size: 16px;
+  font-family: $subTitle;
+  font-weight: bold;
+  margin-bottom: 15px;
+  max-width: 600px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tagItem {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.tagWhite {
+  border: 1px solid white;
+}
+
+.tagOrange {
+  border: 1px solid $orange;
+}
+
+.tagRed {
+  border: 1px solid red;
+}
+
+.tagLightBlue {
+  border: 1px solid $light-blue;
+}
+
+.registerBtn {
+  background-color: $orange;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: darken($orange, 10%);
+  }
+}
+
+.disclaimer {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.storeContainer {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  @media (max-width: 768px) {
+    order: 1;
+    display: block;
+    text-align: center;
+  }
+}
+
+.storeLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.section {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

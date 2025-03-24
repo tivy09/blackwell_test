@@ -1,0 +1,118 @@
+@import "../../../styles/_variable.scss";
+
+.registerFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  padding: 180px 50px 50px;
+  text-align: center;
+  color: $light-blue;
+  width: 100%;
+  overflow: hidden;
+  background: url("/assets/image/bg-3.png") no-repeat center top;
+  background-size: cover;
+  background-position: top;
+
+  input,
+  select,
+  textarea {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: $light-blue;
+    font-family: $subTitle;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    &:focus {
+      border-color: $gold;
+      box-shadow: 0 0 5px $gold;
+    }
+  }
+
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+
+  button {
+    background-color: $orange;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: $mainTitle;
+    margin: auto;
+    width: 150px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background-color: darken($orange, 10%);
+    }
+  }
+}
+
+.title {
+  font-family: $mainTitle;
+  font-size: 50px;
+  color: $light-blue;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.inputRow {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .registerFormWrapper {
+    padding: 0;
+  }
+
+  .container {
+    padding: 100px 20px 50px;
+    background-size: cover;
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+    }
+  }
+
+  .inputRow {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

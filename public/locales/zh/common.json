@@ -1,0 +1,143 @@
+{
+    "brandName": "Blackwell Global",
+    "promotionEnds": "促销结束于",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "registerNow": "立即注册",
+    "login": "登录",
+    "register": "注册",
+    "logout": "登出",
+    "loginTitle": "用户登录",
+    "registerTitle": "用户注册",
+
+    "heroSection": {
+        "heroTitleMain": "复制交易",
+        "heroTitleSub": "与 Blackwell Invest 一起",
+        "storeAlt": "Blackwell Invest 标志",
+        "subText": "选择并交易",
+        "highlight": "即刻可用的策略",
+        "tagForex": "外汇",
+        "tagMetals": "贵金属",
+        "tagOil": "石油",
+        "tagIndices": "指数",
+        "heroDescription": "浏览并复制由专业交易员开发的数百种投资策略！无论您是专业人士还是初学者，现在都可以更快速、更自信地进行交易。",
+        "registerNow": "立即注册",
+        "disclaimer": "投资需谨慎，资本有风险。"
+    },
+
+    "fastMatching": {
+        "title": "快速匹配",
+        "description": "轻松锁定您理想的主交易员。按表现和回撤水平筛选，或通过智能筛选器发现新的信号机会。还犹豫不决？前往“焦点”板块，查看我们为您精选的优质信号。",
+        "spotlight": "焦点",
+        "topStrategies": "顶级策略",
+        "lowDrawdown": "低回撤",
+        "mediumDrawdown": "中等回撤",
+        "highDrawdown": "高回撤",
+        "newStrategies": "新策略"
+    },
+
+    "analysis": {
+        "title": "轻松分析",
+        "description": "快速了解主交易员的概况。交易历史、盈利能力、风险状况和投资组合，一目了然。",
+        "altMainImage": "交易分析",
+        "altBox1": "图框 1",
+        "altBox2": "图框 2",
+        "altBox3": "图框 3",
+        "altBox4": "图框 4",
+        "altBox5": "图框 5"
+    },
+
+    "tradeSteps": {
+        "title": "几分钟内像专业人士一样交易",
+        "steps": [
+            "安装我们的应用程序 “Blackwell Invest”",
+            "选择一个信号主并点击 “复制”",
+            "设置您的交易规模偏好",
+            "点击 “同意并复制”"
+        ],
+        "imageAlt": "步骤 {{stepId}}"
+    },
+
+    "mt4Slider": {
+        "title": "如何连接 MT4 账户",
+        "slides": [
+            "安装我们的应用程序 'Blackwell Invest'",
+            "登录或创建新账户",
+            "点击 “账户”",
+            "点击 “连接账户”",
+            "选择 “BlackwellGlobalAsia-Live” 服务器",
+            "填写您的 Blackwell Global 交易账户或创建一个新账户",
+            "点击 “复制交易”",
+            "点击 “完成”"
+        ],
+        "registerNow": "立即注册"
+    },
+
+    "whyChooseUs": {
+        "title": "为什么选择我们？",
+        "registerNow": "立即注册",
+        "benefits": [
+            {
+                "title": "受监管",
+                "description": "复制交易平台受监管。我们的技术合作伙伴受监管。作为一家经纪商，我们也受监管。我们在严格合规的环境下运营，让您安心交易。"
+            },
+            {
+                "title": "零佣金",
+                "description": "在投资时，小差距很重要。Blackwell Invest 提供零佣金投资，并且安装应用程序无需任何费用。"
+            },
+            {
+                "title": "用户友好",
+                "description": "界面直观，交易执行简单，管理无忧。复制顶级交易员从未如此简单。让交易更聪明、更轻松！"
+            },
+            {
+                "title": "一级流动性",
+                "description": "Blackwell Invest 提供优质流动性，涵盖丰富产品和广泛市场，确保快速执行订单与透明报价。"
+            }
+        ]
+    },
+
+    "navigation": {
+        "title": "5 步轻松掌握应用",
+        "items": [
+            {
+                "title": "探索",
+                "description": "探索 Blackwell Invest 上所有投资大师的资料，深入了解其表现并快速分析其盈利能力。"
+            },
+            {
+                "title": "活动",
+                "description": "查看您复制信号过去 30 天的交易历史或追踪其持仓情况。监控他们的策略，并通过交易更新及时做出明智决策。"
+            },
+            {
+                "title": "交易",
+                "description": "轻松交易原油差价合约、指数和货币对。"
+            },
+            {
+                "title": "持仓",
+                "description": "实时追踪您的交易状态并监控账户指标。"
+            },
+            {
+                "title": "账户",
+                "description": "查看账户详细信息、复制者回撤、盈利能力和交易表现，一目了然。"
+            }
+        ]
+    },
+
+    "enquiryForm": {
+        "title": "立即咨询",
+        "namePlaceholder": "姓名",
+        "emailPlaceholder": "电子邮件",
+        "mobilePlaceholder": "手机号",
+        "countryPlaceholder": "居住国家",
+        "messagePlaceholder": "在此输入您的信息",
+        "submit": "提交",
+        "countryOptions": {
+            "USA": "美国",
+            "UK": "英国",
+            "Canada": "加拿大",
+            "Australia": "澳大利亚"
+        }
+    }
+}
+  
